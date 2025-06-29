@@ -5,12 +5,14 @@ services:
     region: ohio
     plan: free
     healthCheckPath: /api/health
+    healthCheckTimeout: 300
+    initialDeployHook: npx prisma generate
     envVars:
       - key: DATABASE_URL
         sync: false
       - key: DIRECT_URL
         sync: false
       - key: PORT
-        sync: false
+        value: 3000
       - key: GITHUB_TOKEN
         sync: false
