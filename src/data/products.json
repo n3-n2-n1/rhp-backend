@@ -1,0 +1,767 @@
+{
+  "categories": [
+    {
+      "id": "idefix-limpieza-general-desinfeccion",
+      "name": "Idefix - Limpieza General y Desinfección",
+      "products": [
+        {
+          "id": "lavandina-idefix",
+          "name": "Lavandina Idefix 1lt.",
+          "description": "Lavandina clásica para desinfección y limpieza profunda.",
+          "price": 480,
+          "image": "/images/idefix-lavandina-1lt.png",
+          "features": [
+            "Caja x 15: $7.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "liquido-limpiapisos-idefix",
+          "name": "Líquido Limpiapisos Idefix",
+          "description": "Limpiador líquido para pisos, ideal para todo tipo de superficies lavables.",
+          "price": 600,
+          "image": "/images/idefix-todos-pisos.png",
+          "features": [
+            "Caja x 15: $9.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "limpiador-idefix-antigrasa-multiuso-vidrio-gatillo",
+          "name": "Limpiador Idefix Antigrasa/Multiuso/Vidrio c/ Gatillo",
+          "description": "Limpiador Idefix con gatillo pulverizador, ideal para grasa, múltiples usos y limpieza de vidrio.",
+          "price": 1750,
+          "image": "/images/idefix-gatillos.png",
+          "features": [
+            "Con Gatillo",
+            "Antigrasa",
+            "Multiuso",
+            "Vidrio",
+            "Caja x 12: $21.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "repuesto-idefix-antigrasa-multiuso-vidrios",
+          "name": "Repuesto Idefix Antigrasa/Multiuso/Vidrios",
+          "description": "Repuesto económico para limpiadores Idefix, efectivo contra grasa, para múltiples usos y limpieza de vidrios.",
+          "price": 950,
+          "image": "/images/repuesto-idefix-multi.png",
+          "features": [
+            "Repuesto",
+            "Antigrasa",
+            "Multiuso",
+            "Vidrios",
+            "Caja x 12: $11.400"
+          ],
+          "stock": true
+        },
+        {
+          "id": "lavandina-gel-750cc-idefix",
+          "name": "Lavandina Gel 750cc Idefix",
+          "description": "Lavandina en gel para una limpieza más controlada y adherente, presentación 750cc.",
+          "price": 1150,
+          "image": "/images/idefix-lavandina-gel.png",
+          "features": [
+            "En Gel",
+            "750cc",
+            "Caja x 15: $17.250"
+          ],
+          "stock": true
+        },
+        {
+          "id": "lavandina-2lts-idefix",
+          "name": "Lavandina 2 lts Idefix",
+          "description": "Lavandina clásica Idefix de 2 litros. Aprobado por ANMAT.",
+          "price": 950,
+          "image": "/images/lavandina-2lt.png",
+          "features": [
+            "2 lts",
+            "Caja x 8: $7.600"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "idefix-cocina",
+      "name": "Idefix - Cocina",
+      "products": [
+        {
+          "id": "detergente-idefix",
+          "name": "Detergente Idefix x4",
+          "description": "Detergente multiuso ULTRA x4 concentrado. Fragancia limón.",
+          "price": 650,
+          "image": "/images/detergente-idefix-300cc.png",
+          "features": [
+            "Caja x 18: $11.700",
+            "Fragancia Limón"
+          ],
+          "stock": true
+        },
+        {
+          "id": "detergente-lavavajillas-idefix-750cc",
+          "name": "Detergente Lavavajillas Idefix 750cc",
+          "description": "Detergente para lavavajillas, eficaz contra la grasa, presentación 750cc.",
+          "price": 650,
+          "image": "/images/idefix-detergentes-lavavajillas.png",
+          "features": [
+            "750cc",
+            "Caja x 15: $9.750"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "idefix-cuidado-ropa",
+      "name": "Idefix - Cuidado de la Ropa",
+      "products": [
+        {
+          "id": "jaboneria-liquido-ropa-3lts-idefix",
+          "name": "Jabonería Líquido p/ Ropa 3lts Idefix",
+          "description": "Jabón líquido concentrado para el lavado de ropa, presentación de 3 litros.",
+          "price": 2750,
+          "image": "/images/liquido-ropa-idefix.png",
+          "features": [
+            "3lts",
+            "Caja x 4: $11.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-liquido-ropa-800cc-idefix",
+          "name": "Jabón Líquido p/ Ropa 800cc Idefix",
+          "description": "Jabón líquido para el lavado de ropa, presentación de 800cc.",
+          "price": 950,
+          "image": "/images/jabon-liquid-ropa-800-idefix.png",
+          "features": [
+            "800cc",
+            "Caja x 15: $14.250"
+          ],
+          "stock": true
+        },
+        {
+          "id": "suavizante-ropa-idefix-900cc",
+          "name": "Suavizante Ropa Idefix 900cc",
+          "description": "Suavizante para ropa que deja las prendas suaves y perfumadas, presentación 900cc.",
+          "price": 999,
+          "image": "/images/suavizante-ropa-idefix.png",
+          "features": [
+            "900cc",
+            "Caja x 12: $11.988"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "otros-productos-higiene",
+      "name": "Otros Productos - Higiene",
+      "products": [
+        {
+          "id": "higienol-hoja-simple-aloe-vera-30m-4rollos",
+          "name": "Higienol Hoja Simple Aloe Vera 30m 4 rollos",
+          "description": "Papel higiénico Higienol hoja simple con aloe vera. Paquete de 4 rollos de 30 metros cada uno.",
+          "price": "Consultar",
+          "image": "/images/higienol.png",
+          "features": [
+            "Marca Higienol",
+            "Hoja Simple",
+            "Aloe Vera",
+            "30m por rollo",
+            "Pack x 4 rollos",
+            "Bolson x 12: $13.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-liquido-sanitizante-soft-hand-250cc",
+          "name": "Jabón Líquido Sanitizante p/tocador Soft Hand 250cc",
+          "description": "Jabón líquido sanitizante para manos marca Soft Hand, ideal para tocador. Presentación 250cc.",
+          "price": "Consultar",
+          "image": "/images/softhands.png",
+          "features": [
+            "Marca Soft Hand",
+            "Sanitizante",
+            "Para tocador",
+            "250cc",
+            "Caja x 6: $9.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "quinjale",
+          "name": "Quinjale Pasta Limpiadora",
+          "description": "Pasta limpiadora apto mecánicos gráficos zapateros. Remueve eficazmente grasa, resina, pintura de las manos, etc.",
+          "price": "Consultar",
+          "image": "/images/quinjale.png",
+          "features": [
+            "Pasta limpiadora",
+            "Para mecanicos, zapateros",
+            "Caja x 12: $108.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "soft-hands-aromatico-rosa-mosqueta",
+          "name": "Soft Hands Aromático Rosa Mosqueta",
+          "description": "Jabón líquido para manos Soft Hands con aroma a Rosa Mosqueta.",
+          "price": "Consultar",
+          "image": "/images/rosamosqueta-softhand.png",
+          "features": [
+            "Aromático",
+            "Rosa Mosqueta",
+            "Solo Caja x 6: $9.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-tocador-glicerina-signo-90g",
+          "name": "Jabón de Tocador Glicerina Signo 90g",
+          "description": "Jabón de tocador con glicerina marca Signo, 90 gramos.",
+          "price": "Consultar",
+          "image": "/images/signo90g.png",
+          "features": [
+            "90g",
+            "Glicerina",
+            "Caja x 12: $4.800",
+            "Caja x 24: $9.600"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-tocador-glicerina-signo-270g",
+          "name": "Jabón de Tocador Glicerina Signo 270g",
+          "description": "Jabón de tocador con glicerina marca Signo, 270 gramos.",
+          "price": "Consultar",
+          "image": "/images/jabon-signo270.png",
+          "features": [
+            "270g",
+            "Glicerina",
+            "Caja x 12: $11.988",
+            "Caja x 24: $23.976"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "jabones-lavar-ropa",
+      "name": "Jabones para Lavar Ropa",
+      "products": [
+        {
+          "id": "jabon-blanco-signo",
+          "name": "Jabón Blanco Signo 200gr",
+          "description": "Jabón blanco en barra marca Signo para el lavado de ropa.",
+          "price": "Consultar",
+          "image": "/images/signo-ropa-jabon.png",
+          "features": [
+            "Caja x 12: $5.760"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-blanco-argentino",
+          "name": "Jabón Blanco Argentino",
+          "description": "Jabón blanco en barra Industria Argentina para el lavado de ropa.",
+          "price": "Consultar",
+          "image": "/images/jabon-argentino.png",
+          "features": [
+            "Caja x 12: $6.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-ocre-para-ropa",
+          "name": "Jabón Ocre para Ropa 200gr",
+          "description": "Jabón ocre en barra especial para el lavado de ropa.",
+          "price": "Consultar",
+          "image": "/images/jabon-ocre-ropa.png",
+          "features": [
+            "Caja x 12: $4.800",
+            "200gr"
+          ],
+          "stock": true
+        },
+        {
+          "id": "jabon-lavar-glicerina-150g-signo",
+          "name": "Jabón de Lavar Glicerina 150g Signo",
+          "description": "Jabón de lavar con glicerina marca Signo, 150 gramos.",
+          "price": "Consultar",
+          "image": "/images/signo-150g-lavarropa.png",
+          "features": [
+            "150g",
+            "Glicerina",
+            "Para lavar ropa",
+            "Caja x 12: $4.560"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "papeles-descartables",
+      "name": "Papeles y Descartables (Cocina y Baño)",
+      "products": [
+        {
+          "id": "higienol-hoja-simple-aloe-vera-4rollos",
+          "name": "Higienol Hoja Simple Aloe Vera 30m 4 rollos",
+          "description": "Papel higiénico Higienol hoja simple con aloe vera. Paquete de 4 rollos de 30 metros cada uno.",
+          "price": 1100,
+          "image": "/images/higienol.png",
+          "features": [
+            "Marca Higienol",
+            "Hoja Simple",
+            "Aloe Vera",
+            "30m por rollo",
+            "Pack x 4 rollos",
+            "Bolson x 12 packs: $13.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "higienol-hoja-texturado-4rollos-panal",
+          "name": "Higienol Hoja Texturado 4 rollos Panal",
+          "description": "Papel higiénico Higienol hoja texturado con panal. Paquete de 4 rollos de 30 metros cada uno.",
+          "price": 1100,
+          "image": "/images/higienol-panal.png",
+          "features": [
+            "Marca Higienol",
+            "Tecnología Panal",
+            "30m por rollo",
+            "Pack x 4 rollos",
+            "Bolson x 12 packs: $13.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rollo-cocina-precorte-200mts",
+          "name": "Rollo de Cocina Eco Pre-corte x200 Bolson",
+          "description": "Bolson x 8 de Rollo de cocina pre-cortado de 200 metros de largo.",
+          "price": "Consultar",
+          "image": "/images/rollo-precorte.png",
+          "features": [
+            "Pre-corte",
+            "Bolson x 8: $6.500"
+          ],
+          "stock": true
+        },
+        {
+          "id": "papel-esplendor-oferta",
+          "name": "Papel Esplendor (Oferta)",
+          "description": "Papel Esplendor en oferta especial.",
+          "price": 550,
+          "image": "/images/esplendor-papel.png",
+          "features": [
+            "Oferta",
+            "Bolson x 12: $6.600"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rollo-cocina-chanita-150panos",
+          "name": "Rollo de Cocina Chanita 150 paños",
+          "description": "Rollo de cocina marca Chanita con 150 paños.",
+          "price": 850,
+          "image": "/images/chanita-papel.png",
+          "features": [
+            "150 paños",
+            "Bolson x 8: $6.800"
+          ],
+          "stock": true
+        },
+        {
+          "id": "papel-higienico-sol-azul-4x80mts",
+          "name": "Papel Higiénico Sol Azul 4 rollos x 80mts Blanco",
+          "description": "Papel higiénico marca Sol Azul, paquete de 4 rollos de 80 metros cada uno.",
+          "price": 1300,
+          "image": "/images/solazul-320.png",
+          "features": [
+            "Pack 4 rollos",
+            "80 metros por rollo",
+            "Bolson x 10 packs: $13.000",
+            "Natural: $1.100 por unidad, Natural x10: $11.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "papel-tissue-soleado-6x30mts",
+          "name": "Papel Tissue Soleado 6 rollos x 30mts",
+          "description": "Papel tissue marca Soleado, paquete de 6 rollos de 30 metros cada uno.",
+          "price": 750,
+          "image": "/images/soleado2.png",
+          "features": [
+            "Pack 6 rollos",
+            "30 metros por rollo",
+            "Bolson x 12 packs: $9.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "toallas-dispenser-recambio",
+          "name": "Toallas de mano intercaladas",
+          "description": "Toallas dispenser recambio para dispensers de papel.",
+          "price": "Consultar",
+          "image": "/images/toallas-recambio.png",
+          "features": [
+            "Beige: Cajax10 de 100 unidades: $7.800",
+            "Blanco: Cajax10 de 100 unidades: $8.450"
+          ],
+          "stock": true
+        },
+        {
+          "id": "combo-dispenser-toallas-manos-industria-argentina",
+          "name": "Combo Dispenser + Toallas para Manos Industria Argentina (Oferta)",
+          "description": "Oferta especial: Combo de dispenser más toallas para manos de industria argentina.",
+          "price": 10800,
+          "image": "/images/dispenser-papeles.png",
+          "features": [
+            "Incluye dispenser y toallas",
+            "Oferta"
+          ],
+          "stock": true
+        },
+        {
+          "id": "papel-tissue-nitidess-rollo",
+          "name": "Papel Tissue Nitidess (Rollo)",
+          "description": "Rollo de papel tissue marca Nitidess.",
+          "price": 150,
+          "image": "/images/nitidess-u-papel.png",
+          "features": [
+            "Bolson x 48 rollos: $7.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rollo-papel-higienico-esplendor-80mts-pack18x2",
+          "name": "Rollo papel higiénico Esplendor 80 mts",
+          "description": "Papel higiénico Esplendor de 80 metros. Pack de 18 unidades (2 rollos por pack).",
+          "price": "$ 650",
+          "image": "/images/esplendor-80mts.png",
+          "features": [
+            "Marca Esplendor",
+            "80m por rollo",
+            "Pack x 18 (de 2 unidades c/u)",
+            "Total: $ 11.700"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rollo-papel-higienico-blanco-hoja-simple-4x30-bolson12",
+          "name": "Comboy Rollo Papel Higiénico Blanco Hoja Simple 4x 30",
+          "description": "Papel higiénico blanco de hoja simple. Pack de 4 rollos de 30 metros cada uno. Bolsón de 12 packs.",
+          "price": "$ 550",
+          "image": "/images/papel-higienico-blanco-hs-4x30.png",
+          "features": [
+            "Hoja Simple",
+            "30m por rollo",
+            "Pack x 4 rollos",
+            "Bolsón x 12 packs",
+            "Total: $ 6.600"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rollo-papel-higienico-ludmia-4x80mts-bolson10",
+          "name": "Rollo papel higiénico Ludmia 4 x 80 mts",
+          "description": "Papel higiénico Ludmia. Pack de 4 rollos de 80 metros cada uno. Bolsón de 10 packs.",
+          "price": "$ 1.000",
+          "image": "/images/ludmia-4x80mts.png",
+          "features": [
+            "Marca Ludmia",
+            "80m por rollo",
+            "Pack x 4 rollos",
+            "Bolsón x 10 packs",
+            "Total: $ 10.000"
+          ],
+          "stock": true
+        }
+      ]
+    },
+    {
+      "id": "utiles-limpieza",
+      "name": "Útiles de Limpieza",
+      "products": [
+        {
+          "id": "bolsas-residuo-reforzadas-reciclado-sur",
+          "name": "Bolsas de Residuo Reforzadas Reciclado Sur",
+          "description": "Bolsas de residuo ultra resistentes de la marca Reciclado Sur. Cada paquete contiene 10 unidades. Ideales para el hogar, oficina o consorcio. Elige el tamaño que mejor se adapte a tus necesidades.",
+          "price": "Consultar",
+          "image": "/images/bolsas-reciclado-sur-reforzadas.png",
+          "features": [
+            "Pack 45x60 cm (Naranja, Familiar) Pack 10 unidades: $300",
+            "Pack 50x70 cm (Violeta, Familiar) Pack 10 unidades: $400",
+            "Pack 60x90 cm (Verde, Consorcio/Familiar) Pack 10 unidades: $600",
+            "Pack 80x110 cm (Azul, Consorcio/Familiar) Pack 10 unidades: $1100"
+          ],
+          "stock": true
+        },
+        {
+          "id": "palangana-6-lts",
+          "name": "Palangana de 6 lts",
+          "description": "Palangana de plástico con capacidad de 6 litros.",
+          "price": "Consultar",
+          "image": "/images/palangana6.png",
+          "features": [
+            "Capacidad de 6 litros"
+          ],
+          "stock": true
+        },
+        {
+          "id": "guantes-trabajo-moteado",
+          "name": "Guantes de trabajo moteado",
+          "description": "Guantes de trabajo con palma moteada para mejor agarre.",
+          "price": "Consultar",
+          "image": "/images/guante-trabajo-moteado.png",
+          "features": [
+            "Palma moteada",
+            "Ideal para trabajo general"
+          ],
+          "stock": true
+        },
+        {
+          "id": "secador-doble-goma-premium",
+          "name": "Secador Doble Goma Premium",
+          "description": "Secador de piso con doble goma para un secado más eficiente.",
+          "price": "Consultar",
+          "image": "/images/secador-doble-goma-premium.png",
+          "features": [
+            "Doble goma",
+            "Material premium"
+          ],
+          "stock": true
+        },
+        {
+          "id": "fuenton-c-asa-17-lts",
+          "name": "Fuentón con Asa 17 Lts",
+          "description": "Fuentón de plástico con asas, capacidad de 17 litros.",
+          "price": "Consultar",
+          "image": "/images/fuenton-17lts.png",
+          "features": [
+            "Con asas",
+            "Capacidad de 17 litros"
+          ],
+          "stock": true
+        },
+        {
+          "id": "esponja-bronce-10-grs",
+          "name": "Esponja de bronce 10 grs",
+          "description": "Esponja de bronce de 10 gramos para limpieza profunda.",
+          "price": "Consultar",
+          "image": "/images/esponja-bronce-10grs.png",
+          "features": [
+            "Material: Bronce",
+            "Peso: 10 gramos",
+            "Ideal para limpieza abrasiva"
+          ],
+          "stock": true
+        },
+        {
+          "id": "cabos-madera-forrados",
+          "name": "Cabos de madera forrados",
+          "description": "Cabos de madera forrados, ideales para escobas o secadores.",
+          "price": "Consultar",
+          "image": "/images/cabos-madera-forrado.png",
+          "features": [
+            "Material: Madera",
+            "Forrados"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rejilla-pabilo-doble",
+          "name": "Rejilla pabilo doble",
+          "description": "Rejilla de pabilo doble, mayor absorción para limpieza.",
+          "price": "Consultar",
+          "image": "/images/rejila-pabilo-doble.png",
+          "features": [
+            "Material: Pabilo",
+            "Doble"
+          ],
+          "stock": true
+        },
+        {
+          "id": "rejilla-pabilo-liviana",
+          "name": "Rejilla pabilo liviana",
+          "description": "Rejilla de pabilo liviana, para limpieza general.",
+          "price": "Consultar",
+          "image": "/images/rejilla-pablo-economica.png",
+          "features": [
+            "Material: Pabilo",
+            "Liviana"
+          ],
+          "stock": true
+        },
+        {
+          "id": "trapo-piso-gris-costurado",
+          "name": "Trapo de piso gris costurado",
+          "description": "Trapo de piso de color gris con costura, alta resistencia y absorción.",
+          "price": "Consultar",
+          "image": "/images/trapo-piso-gris-costurado.png",
+          "features": [
+            "Color: Gris",
+            "Costurado",
+            "Alta absorción"
+          ],
+          "stock": true
+        },
+        {
+          "id": "paño-cocina",
+          "name": "Paño de cocina",
+          "description": "Paño de cocina multiuso para secar y limpiar.",
+          "price": "Consultar",
+          "image": "/images/pano-cocina.png",
+          "features": [
+            "Multiuso",
+            "Ideal para cocina"
+          ],
+          "stock": true
+        },
+        {
+          "id": "escobillon-agustina",
+          "name": "Escobillón Agustina",
+          "description": "Escobillón modelo Agustina para limpieza de pisos.",
+          "price": "Consultar",
+          "image": "/images/escobillon-agustina.png",
+          "features": [
+            "Pack x 12: $16.800",
+            "Pack x 24: $33.600"
+          ],
+          "stock": true
+        },
+        {
+          "id": "escobillon-regio",
+          "name": "Escobillón Regio",
+          "description": "Escobillón modelo Regio para limpieza de pisos.",
+          "price": "Consultar",
+          "image": "/images/escobillon-regio.png",
+          "features": [
+            "Pack x 12: $16.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "escobillon-pampa",
+          "name": "Escobillón Pampa",
+          "description": "Escobillón modelo Pampa para limpieza de pisos.",
+          "price": "Consultar",
+          "image": "/images/escobillon-pampa.png",
+          "features": [
+            "Pack x 12: $15.600",
+            "Pack x 24: $31.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "secador-la-gauchita-30cm",
+          "name": "Secador La Gauchita 30cm",
+          "description": "Secador de pisos La Gauchita de 30cm.",
+          "price": "Consultar",
+          "image": "/images/secador-lagauchita.png",
+          "features": [
+            "30cm",
+            "Pack x 6: $7.500",
+            "Pack x 12: $15.000"
+          ],
+          "stock": false
+        },
+        {
+          "id": "rastrillo-industria-nacional",
+          "name": "Rastrillo Industria Nacional",
+          "description": "Rastrillo de industria nacional para jardín o limpieza.",
+          "price": 700,
+          "image": "/images/rastrillo.png",
+          "features": [
+            "Pack x 6: $4.200",
+            "Pack x 12: $8.400"
+          ],
+          "stock": false
+        },
+        {
+          "id": "cabo-madera-escobillones-secadores",
+          "name": "Cabo de Madera Forrado para Escobillones y Secadores",
+          "description": "Cabo de madera resistente para escobillones y secadores. Forrado.",
+          "price": 950,
+          "image": "/images/cabo-madera.png",
+          "features": [
+            "Madera",
+            "Para escobillones y secadores",
+            "Pack x 6: $5.100",
+            "Pack x 12: $10.200",
+            "Forrado"
+          ],
+          "stock": true
+        },
+        {
+          "id": "balde-plastico-nacional",
+          "name": "Balde Plástico Nacional 10L",
+          "description": "Balde plástico resistente. Industria Argentina.",
+          "price": 1500,
+          "image": "/images/balde.png",
+          "features": [
+            "Plástico",
+            "Pack x 6: $9.000",
+            "Pack x 12: $18.000"
+          ],
+          "stock": true
+        },
+        {
+          "id": "pala-plastica-origen-nacional",
+          "name": "Pala Plástica Origen Nacional c/ Cabo",
+          "description": "Pala plástica de origen nacional para recolección de residuos.",
+          "price": 850,
+          "image": "/images/pala-plastica.png",
+          "features": [
+            "Plástica",
+            "Pack x 6: $5.100",
+            "Pack x 12: $10.200",
+            "Con cabo"
+          ],
+          "stock": false
+        }
+      ]
+    },
+    {
+      "id": "varios-hogar",
+      "name": "Varios para el Hogar",
+      "products": [
+        {
+          "id": "tabletas-antimosquito-gorrion-caja-120u",
+          "name": "Tabletas Antimosquito Gorrión (Caja 120u)",
+          "description": "Caja con 120 tabletas antimosquitos marca Gorrión.",
+          "price": "Consultar",
+          "image": "/images/gorrion-tabletas.png",
+          "features": [
+            "Caja de 120 tabletas"
+          ],
+          "stock": true
+        },
+        {
+          "id": "insecticida-escudo-moscas",
+          "name": "Insecticida Escudo Mosca",
+          "description": "Insecticida para control de moscas y mosquitos marca Escudo.",
+          "price": "Consultar",
+          "image": "/images/escudo-insecticida.png",
+          "features": [
+            "Antimoscas",
+            "Caja x 12: $22.200"
+          ],
+          "stock": true
+        },
+        {
+          "id": "velas-carabela-paquete",
+          "name": "Velas Carabela (Paquete)",
+          "description": "Paquete de velas marca Carabela. Duracion 3 horas y media.",
+          "price": "Consultar",
+          "image": "/images/velas-carabela.png",
+          "features": [
+            "Paquete x4",
+            "Larga duracion"
+          ],
+          "stock": true
+        }
+      ]
+    }
+  ]
+}
