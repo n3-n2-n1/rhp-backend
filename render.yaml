@@ -5,7 +5,8 @@ services:
     region: ohio
     plan: free
     healthCheckPath: /api/health
-    healthCheckTimeout: 300
+    healthCheckTimeout: 600
+    startCommand: pnpm run start:prod
     initialDeployHook: npx prisma generate
     envVars:
       - key: DATABASE_URL
@@ -15,4 +16,10 @@ services:
       - key: PORT
         value: 3000
       - key: GITHUB_TOKEN
+        sync: false
+      - key: CLOUDINARY_CLOUD_NAME
+        sync: false
+      - key: CLOUDINARY_API_KEY
+        sync: false
+      - key: CLOUDINARY_API_SECRET
         sync: false

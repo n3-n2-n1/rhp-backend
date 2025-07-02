@@ -9,9 +9,15 @@ async function bootstrap() {
 
   // Configuración de CORS
   app.enableCors({
-    origin: ['*'],
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-    credentials: true,
+    origin: [
+      'http://localhost:3000',
+      'http://localhost:4321',
+      'https://distribuidorarhp.com',
+      'https://www.distribuidorarhp.com',
+    ],
+    methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true
   });
 
   // Pipes globales

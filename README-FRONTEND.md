@@ -5,7 +5,7 @@
 ### Base URL
 ```
 Desarrollo: http://localhost:3000
-Producción: [URL_DE_TU_API_DESPLEGADA]
+Producción: https://api.distribuidorarhp.com
 ```
 
 ## 📦 Productos API
@@ -562,20 +562,29 @@ async function updateProductImageUrl(productId, imageUrl) {
     "start:prod": "node dist/main"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0"
   }
 }
 ```
 
 ### Variables de entorno necesarias:
 ```env
-NODE_ENV=production
-PORT=3000
+# Base de datos
 DATABASE_URL=tu_url_de_supabase
+DIRECT_URL=tu_url_directa_de_supabase
+
+# Servidor
+PORT=3000
+NODE_ENV=production
+
+# Cloudinary
+CLOUDINARY_CLOUD_NAME=dh9c97uci
+CLOUDINARY_API_KEY=tu_api_key
+CLOUDINARY_API_SECRET=tu_api_secret
 ```
 
 ## 🔧 CORS Configuration
-Para que tu frontend pueda consumir la API, asegúrate de tener CORS configurado:
+La API está configurada para aceptar peticiones de los siguientes dominios:
 
 ```javascript
 // En main.ts
@@ -585,9 +594,12 @@ import { AppModule } from './app.module';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   
-  // Habilitar CORS
   app.enableCors({
-    origin: ['http://localhost:3000', 'https://tu-frontend.vercel.app'], // Agrega tu dominio de frontend
+    origin: [
+      'http://localhost:3000',
+      'https://distribuidorarhp.com',
+      'https://www.distribuidorarhp.com'
+    ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
   });
@@ -636,13 +648,14 @@ export default ProductList;
 
 ## 🚀 Recomendación Final
 
-Para tu caso de uso (empresa que lo usa muy poco), te recomiendo:
+La API está configurada y desplegada en Render.com, con las siguientes características:
 
-1. **Railway** para desplegar la API (muy fácil y suficiente para tráfico bajo)
-2. **Vercel** o **Netlify** para el frontend (si tienes uno)
-3. Tu **Supabase** ya está configurado y es gratuito hasta cierto límite
+1. **Base de datos:** Supabase (Plan gratuito)
+2. **Almacenamiento de imágenes:** Cloudinary
+3. **Deployment:** Render.com (Plan gratuito)
+4. **DNS:** Hostinger con SSL/HTTPS
 
-¡Con esto tendrás todo funcionando gratis y de manera profesional!
+La configuración actual es suficiente para el tráfico esperado y no tiene costos mensuales.
 
 ### Componente React para Upload de Imágenes
 
@@ -876,4 +889,49 @@ function ProductForm() {
   );
 }
 
-export default ProductForm; 
+export default ProductForm;
+
+## 🌐 Despliegue en Producción
+
+El backend está desplegado en Render.com con las siguientes características:
+
+### Configuración de Render
+- **Servicio:** Web Service
+- **Región:** Ohio
+- **Plan:** Free
+- **Health Check Path:** /api/health
+- **Docker:** Sí
+
+### Variables de entorno necesarias:
+```env
+DATABASE_URL=tu_url_de_supabase
+DIRECT_URL=tu_url_directa_de_supabase
+PORT=3000
+```
+
+## 🔧 CORS Configuration
+La API está configurada para aceptar peticiones de los siguientes dominios:
+
+```javascript
+// En main.ts
+import { NestFactory } from '@nestjs/core';
+import { AppModule } from './app.module';
+
+async function bootstrap() {
+  const app = await NestFactory.create(AppModule);
+  
+  app.enableCors({
+    origin: [
+      'http://localhost:3000',
+      'https://distribuidorarhp.com',
+      'https://www.distribuidorarhp.com'
+    ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  });
+  
+  const port = process.env.PORT || 3000;
+  await app.listen(port);
+}
+bootstrap();
+``` 
