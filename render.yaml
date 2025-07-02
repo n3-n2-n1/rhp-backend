@@ -4,7 +4,7 @@ services:
     env: docker
     region: ohio
     plan: free
-    healthCheckPath: /api/health
+    healthCheckPath: /health
     healthCheckTimeout: 600
     startCommand: pnpm run start:prod
     initialDeployHook: npx prisma generate
@@ -18,7 +18,7 @@ services:
       - key: DIRECT_URL
         sync: false
       - key: PORT
-        value: 3000
+        value: 10000
       - key: NODE_ENV
         value: production
       - key: GITHUB_TOKEN
