@@ -8,6 +8,10 @@ services:
     healthCheckTimeout: 600
     startCommand: pnpm run start:prod
     initialDeployHook: npx prisma generate
+    dockerCommand: pnpm run start:prod
+    scaling:
+      minInstances: 1
+      maxInstances: 1
     envVars:
       - key: DATABASE_URL
         sync: false
@@ -15,6 +19,8 @@ services:
         sync: false
       - key: PORT
         value: 3000
+      - key: NODE_ENV
+        value: production
       - key: GITHUB_TOKEN
         sync: false
       - key: CLOUDINARY_CLOUD_NAME
